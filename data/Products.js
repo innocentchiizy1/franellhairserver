@@ -1,6 +1,7 @@
 const products = [
   {
-    name: "Velcro Ballerinas For Girls  (Pink)",
+ 
+    name: "Passion Twist Crochet",
     image: "/images/6.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -10,8 +11,9 @@ const products = [
     numReviews: 4,
   },
   {
-    name: "Velcro Sneakers For Boys & Girls  (Blue)",
-    image: "/images/5.png",
+
+    name: "Spiral Curly Braiding Hair",
+    image: "/images/5.png", 
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
     price: 599,
@@ -20,7 +22,8 @@ const products = [
     numReviews: 2,
   },
   {
-    name: "Sesame Street Unisex-Child ELMO Puppet Slipper",
+
+    name: " Curly Goddess Faux Locs",
     image: "/images/4.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -30,7 +33,8 @@ const products = [
     numReviews: 3,
   },
   {
-    name: "Lace Casual Boots For Boys & Girls  (Tan)",
+
+    name: "Bohemian Gypsy Goddess Faux Locs",
     image: "/images/3.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -40,7 +44,8 @@ const products = [
     numReviews: 9,
   },
   {
-    name: "Lace Walking Shoes For Boys & Girls  (Pink)",
+    
+    name: "Goddess Knotless bohemian boho Box Braids",
     image: "/images/2.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
@@ -50,7 +55,8 @@ const products = [
     numReviews: 2,
   },
   {
-    name: "Women Red Heels Sandal",
+ 
+    name: "Boho Goddess Box Braids",
     image: "/images/1.png",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
