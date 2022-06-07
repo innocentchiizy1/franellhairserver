@@ -50,10 +50,7 @@ const productSchema = mongoose.Schema(
       required: true,
       default: 0,
     },
-    color: {
-      type: String,
-      required: true,
-    },
+   
   },
   {
     timestamps: true,
