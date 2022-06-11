@@ -50,14 +50,6 @@ const productSchema = mongoose.Schema(
       required: true,
       default: 0,
     },
-    color: {
-      type: String,
-      required: true,
-    },
-    color1: {
-      type: String,
-      
-    },
    
   },
   {
