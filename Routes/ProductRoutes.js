@@ -114,7 +114,7 @@ productRoute.post(
   protect,
   admin,
   asyncHandler(async (req, res) => {
-    const { name, price, description, image, countInStock,  } = req.body;
+    const { name, price, description, image, countInStock, color,  } = req.body;
     const productExist = await Product.findOne({ name });
     if (productExist) {
       res.status(400);
@@ -125,7 +125,7 @@ productRoute.post(
         price,
         description,
         image,
-        
+        color,
         countInStock,
         user: req.user._id,
       });
