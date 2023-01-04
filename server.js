@@ -9,7 +9,7 @@ import orderRouter from "./Routes/orderRoutes.js";
 import cors from "cors";
 
 dotenv.config();
-connectDatabase();
+
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -28,5 +28,7 @@ app.use(notFound);
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 1000;
+
+connectDatabase();
 
 app.listen(PORT, console.log(`server run in port ${PORT}`));
